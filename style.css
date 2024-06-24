@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(45deg, #ff1ea1, #5100d3);
+    animation: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0%;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    /* Adjust the brightness value (0.7 in this case) */
+}
+
+#stopwatch-container {
+    text-align: center;
+    position: fixed;
+}
+
+#start {
+    background-color: #009753;
+    color: aliceblue;
+    size: 10%
+}
+
+#lap {
+    background-color: #1e291f;
+    color: aliceblue;
+}
+
+#stop {
+    background-color: #c91400;
+    color: aliceblue;
+}
+
+#reset {
+    background-color:  #0e85fc;
+    color: aliceblue;
+}
+
+#timer {
+    font-size: 2em;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
